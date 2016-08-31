@@ -1,0 +1,25 @@
+{
+  "name": "code-array",
+  "version": "0.0.1",
+  "description": "Small module for converting strings to char code arrays and back to strings.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarst/code-array"
+  },
+  "author": "jarst",
+  "license": "MIT",
+  "keywords": [
+    "string",
+    "character",
+    "code",
+    "array"
+  ],
+  "main": "code-array.js",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha test-code-array.js"
+  }
+}
