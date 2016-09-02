@@ -1,6 +1,6 @@
 {
   "name": "code-array",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Small module for converting strings to char code arrays and back to strings.",
   "repository": {
     "type": "git",
@@ -20,6 +20,6 @@
     "mocha": "^3.0.2"
   },
   "scripts": {
-    "test": "mocha test-code-array.js"
+    "test": "mocha test/test-code-array.js"
   }
 }

@@ -2,7 +2,7 @@
  * Created by jarst on 2016-08-31.
  */
 var chai = require('chai');
-var codeArray = require('./code-array');
+var codeArray = require('./../code-array');
 
 var should = chai.should();
 
