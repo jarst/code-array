@@ -1,1 +1,1 @@
-module.exports = require('./code-array');
+module.exports = require('./lib/code-array');
