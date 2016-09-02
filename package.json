@@ -14,12 +14,16 @@
     "code",
     "array"
   ],
-  "main": "code-array.js",
+  "main": "index.js",
+  "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "coveralls": "^2.11.12",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "mocha-lcov-reporter": "^1.2.0"
   },
   "scripts": {
-    "test": "mocha test/test-code-array.js"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha"
   }
 }
