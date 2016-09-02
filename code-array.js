@@ -7,9 +7,9 @@ function isString(o) {
 }
 
 /**
- * Converts String to Array of character codes.
- * @param str
- * @returns {Array}
+ * Converts String to Array of UTF-16 character codes.
+ * @param {string} str
+ * @returns {Number[]}
  */
 function stringToCodeArray(str) {
     var codes = [];
@@ -22,8 +22,8 @@ function stringToCodeArray(str) {
 }
 
 /**
- * Converts Array of character codes to String.
- * @param codes
+ * Converts Array of UTF-16 character codes to String.
+ * @param {Number[]} codes
  * @returns {string}
  */
 function codeArrayToString(codes) {

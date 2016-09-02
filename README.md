@@ -2,6 +2,8 @@ code-array
 ----------
 [![Build Status](https://travis-ci.org/jarst/code-array.svg?branch=master)](https://travis-ci.org/jarst/code-array)
 [![npm:](https://img.shields.io/npm/v/code-array.svg)](https://www.npmjs.com/packages/code-array)
+[![license:mit](https://img.shields.io/badge/license-mit-green.svg)](#license)
+
 
 Simple utility module that will help you with converting:
  * strings to character code arrays
